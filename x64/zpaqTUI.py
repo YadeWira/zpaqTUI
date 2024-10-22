@@ -4,7 +4,7 @@ import msvcrt
 import shutil  # Importar shutil para eliminar directorios no vacíos
 import sys  # Importar sys para acceder a la ruta de MEIPASS
 
-os.system('title ZPaqTUI By Wira - zpaqfranz Ver. 60.8o - TUI a0.3 - x64')
+os.system('title ZPaqTUI By Wira - zpaqfranz Ver. 60.8o - TUI a0.3 - x86')
 
 def get_zpaq_executable():
     """Devuelve la ruta de zpaq.exe, ya sea en el directorio actual o en MEIPASS si se ejecuta como .exe."""
@@ -51,6 +51,11 @@ def menu():
         try:
             # Recargar la lista de archivos antes de mostrar el menú
             items = os.listdir('.')
+
+            # Separar carpetas y archivos, ordenando para que carpetas vayan primero
+            folders = [item for item in items if os.path.isdir(item)]
+            files = [item for item in items if os.path.isfile(item)]
+            items = folders + files  # Carpetas primero, luego archivos
             
             # Asegurar que el índice seleccionado esté dentro del rango de la página actual
             max_page = (len(items) - 1) // items_per_page
@@ -160,7 +165,7 @@ def decompress(items, selected_index, page, items_per_page):
         except Exception as e:
             print(f"Ocurrió un error al intentar descomprimir: {e}")
     else:
-        print("El índice seleccionado no es válido para descompresión.")
+        print("El índice seleccionado no es válido para descomprimir.")
 
     input("Presiona Enter para regresar al menú...")
 
