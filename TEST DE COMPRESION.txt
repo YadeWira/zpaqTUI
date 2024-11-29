@@ -1,291 +1,466 @@
 
-TEST DE COMPRIMIDORES
+Hola soy Wira, debo aclarar que los archivos en GB estan redondeados por eso quisas algunos datos son repititivos.
 
-Hola soy Wira, debo aclarar que los datos en "GB" están redondeados por eso quizás algunos datos son repetitivos, también se omitieron varios métodos de compresión por ser muy irrelevantes para mostrar.
+# Test de Compresores: #
 
-# Test de Archivos: #
-
-> WinRAR
+WinRAR
 Formato de archivo: RAR
-Nivel de compresión: La Mejor
+Nivel de compresion: La Mejor
 Tamaño de diccionario: 1GB
 Extras: Archivo solido
-Tiempo: 2:05 MIN
-Compresión: 2.13GB -> 1.46GB
+Tiempo: 1:56 MIN
+Compresion: 2.13GB -> 1.46GB
 Diferencia: 0.67GB
-Radio de Compresión: 31.46%
+Radio de Compresion: 31.46%
 
-> 7-Zip
+7-Zip
 Formato de archivo: 7z
-Nivel de compresión: 9 - Ultra
+Nivel de compresion: 9 - Ultra
 Tamaño de diccionario: 1GB
 Tamaño de palabra: 256
 Tamaño de bloque solido: Solido
-Tiempo: 6:55 MIN
-Compresión: 2.13GB -> 1.39GB
+Tiempo: 6:37 MIN
+Compresion: 2.13GB -> 1.39GB
 Diferencia: 0.74GB
-Radio de Compresión: 34.74%
+Radio de Compresion: 34.74%
 
-> FreeArc
+FreeArc #1
 Formato de archivo: Arc
-Nivel de compresión: Alta -m5
-Tiempo: 1:55 MIN
-Compresión: 2.13GB -> 1.38GB
-Diferencia: 0.75GB
-Radio de Compresión: 35.21%
+Metodo de compresion: -m1
+Extras: -s -r
+Tiempo: 0:04 MIN
+Compresion: 2.13GB -> 1.62GB
+Diferencia: 0.51GB
+Radio de Compresion: 23.94%
 
-> FreeArc Next #0
+FreeArc #2
+Formato de archivo: Arc
+Metodo de compresion: -m2
+Extras: -s -r
+Tiempo: 0:36 MIN
+Compresion: 2.13GB -> 1.38GB
+Diferencia: 0.75GB
+Radio de Compresion: 35.21%
+
+FreeArc #3
+Formato de archivo: Arc
+Metodo de compresion: -m3
+Extras: -s -r
+Tiempo: 1:45 MIN
+Compresion: 2.13GB -> 1.34GB
+Diferencia: 0.79GB
+Radio de Compresion: 37.08%
+
+FreeArc #4
+Formato de archivo: Arc
+Metodo de compresion: -m4
+Extras: -s -r
+Tiempo: 1:43 MIN
+Compresion: 2.13GB -> 1.34GB
+Diferencia: 0.79GB
+Radio de Compresion: 37.08%
+
+FreeArc #5
+Formato de archivo: Arc
+Metodo de compresion: -m5
+Extras: -s -r
+Tiempo: 1:55 MIN
+Compresion: 2.13GB -> 1.38GB
+Diferencia: 0.75GB
+Radio de Compresion: 35.21%
+
+FreeArc #6
+Formato de archivo: Arc
+Metodo de compresion: -m6
+Extras: -s -r
+Tiempo: 4:29 MIN
+Compresion: 2.13GB -> 1.32GB
+Diferencia: 0.81GB
+Radio de Compresion: 38.03%
+
+FreeArc #7
+Formato de archivo: Arc
+Metodo de compresion: -m7
+Extras: -s -r
+Tiempo: 5:36 MIN
+Compresion: 2.13GB -> 1.32GB
+Diferencia: 0.81GB
+Radio de Compresion: 38.03%
+
+FreeArc #8
+Formato de archivo: Arc
+Metodo de compresion: -m8
+Extras: -s -r
+Tiempo: 5:31 MIN
+Compresion: 2.13GB -> 1.32GB
+Diferencia: 0.81GB
+Radio de Compresion: 38.03%
+
+FreeArc #9
+Formato de archivo: Arc
+Metodo de compresion: -m9
+Extras: -s -r
+Tiempo: 5:45 MIN
+Compresion: 2.13GB -> 1.32GB
+Diferencia: 0.81GB
+Radio de Compresion: 38.03%
+
+FreeArc Next #0
 Formato de archivo: Arc
 Extras: -s -r
 Tiempo: 1:27 MIN
-Compresión: 2.13GB -> 1.38GB
+Compresion: 2.13GB -> 1.38GB
 Diferencia: 0.75GB
-Radio de Compresión: 35.21%
+Radio de Compresion: 35.21%
 
-> FreeArc Next #1
+FreeArc Next #1
 Formato de archivo: Arc
-Método de compresión: -m2
+Metodo de compresion: -m1
+Extras: -s -r
+Tiempo: 1:27 MIN
+Compresion: 2.13GB -> 1.63GB
+Diferencia: 0.50GB
+Radio de Compresion: 23.47%
+
+FreeArc Next #2
+Formato de archivo: Arc
+Metodo de compresion: -m2
 Extras: -s -r
 Tiempo: 0:28 MIN
-Compresión: 2.13GB -> 1.38GB
+Compresion: 2.13GB -> 1.38GB
 Diferencia: 0.75GB
-Radio de Compresión: 35.21%
+Radio de Compresion: 35.21%
 
-> FreeArc Next #2
+FreeArc Next #3
 Formato de archivo: Arc
-Método de compresión: -m6
+Metodo de compresion: -m3
+Extras: -s -r
+Tiempo: 1:35 MIN
+Compresion: 2.13GB -> 1.39GB
+Diferencia: 0.74GB
+Radio de Compresion: 34.74%
+
+FreeArc Next #4
+Formato de archivo: Arc
+Metodo de compresion: -m4
+Extras: -s -r
+Tiempo: 1:32 MIN
+Compresion: 2.13GB -> 1.38GB
+Diferencia: 0.75GB
+Radio de Compresion: 35.21%
+
+FreeArc Next #5
+Formato de archivo: Arc
+Metodo de compresion: -m5
+Extras: -s -r
+Tiempo: 1:34 MIN
+Compresion: 2.13GB -> 1.38GB
+Diferencia: 0.75GB
+Radio de Compresion: 35.21%
+
+FreeArc Next #6
+Formato de archivo: Arc
+Metodo de compresion: -m6
 Extras: -s -r
 Tiempo: 4:01 MIN
-Compresión: 2.13GB -> 1.32GB
+Compresion: 2.13GB -> 1.32GB
 Diferencia: 0.81GB
-Radio de Compresión: 37.99%
+Radio de Compresion: 37.99%
 
-> FreeArc Next #3
+FreeArc Next #7
 Formato de archivo: Arc
-Método de compresión: -m7
+Metodo de compresion: -m7
 Extras: -s -r
 Tiempo: 4:56 MIN
-Compresión: 2.13GB -> 1.32GB
+Compresion: 2.13GB -> 1.32GB
 Diferencia: 0.81GB
-Radio de Compresión: 37.99%
+Radio de Compresion: 37.99%
 
-> FreeArc Next #4
+FreeArc Next #8
 Formato de archivo: Arc
-Método de compresión: -m8
+Metodo de compresion: -m8
 Extras: -s -r
 Tiempo: 5:08 MIN
-Compresión: 2.13GB -> 1.32GB
+Compresion: 2.13GB -> 1.32GB
 Diferencia: 0.81GB
-Radio de Compresión: 37.99%
+Radio de Compresion: 37.99%
 
-> FreeArc Next #5
+FreeArc Next #9
 Formato de archivo: Arc
-Método de compresión: -m9
+Metodo de compresion: -m9
 Extras: -s -r
 Tiempo: 6:23 MIN
-Compresión: 2.13GB -> 1.32GB
+Compresion: 2.13GB -> 1.32GB
 Diferencia: 0.81GB
-Radio de Compresión: 37.99%
+Radio de Compresion: 37.99%
 
-> zpaqFranz #1
+zpaqFranz #1
 Formato de archivo: zpaq
-Método de compresión: -m1
+Metodo de compresion: -m1
 Extras: -ssd
 Tiempo: 0:20 MIN
-Compresión: 2.13GB -> 1.58GB
+Compresion: 2.13GB -> 1.58GB
 Diferencia: 0.55GB
-Radio de Compresión: 25.82%
+Radio de Compresion: 25.82%
 
-> zpaqFranz #2
+zpaqFranz #2
 Formato de archivo: zpaq
-Método de compresión: -m2
+Metodo de compresion: -m2
 Extras: -ssd
 Tiempo: 0:56 MIN
-Compresión: 2.13GB -> 1.53GB
+Compresion: 2.13GB -> 1.53GB
 Diferencia: 0.60GB
-Radio de Compresión: 28.17%
+Radio de Compresion: 28.17%
 
-> zpaqFranz #3
+zpaqFranz #3
 Formato de archivo: zpaq
-Método de compresión: -m3
+Metodo de compresion: -m3
 Extras: -ssd
 Tiempo: 1:36 MIN
-Compresión: 2.13GB -> 1.40GB
+Compresion: 2.13GB -> 1.40GB
 Diferencia: 0.73GB
-Radio de Compresión: 34.27%
+Radio de Compresion: 34.27%
 
-> zpaqFranz #4
+zpaqFranz #4
 Formato de archivo: zpaq
-Método de compresión: -m4
+Metodo de compresion: -m4
 Extras: -ssd
 Tiempo: 2:54 MIN
-Compresión: 2.13GB -> 1.30GB
+Compresion: 2.13GB -> 1.30GB
 Diferencia: 0.83GB
-Radio de Compresión: 38.97%
+Radio de Compresion: 38.97%
 
-> zpaqFranz #5
+zpaqFranz #5
 Formato de archivo: zpaq
-Método de compresión: -m5
+Metodo de compresion: -m5
 Extras: -ssd
 Tiempo: 13:47 MIN
-Compresión: 2.13GB -> 1.26GB
+Compresion: 2.13GB -> 1.26GB
 Diferencia: 0.87GB
-Radio de Compresión: 40.85%
+Radio de Compresion: 40.85%
 
-# Top en Compresión: #
+NanoZip #1
+Formato de archivo: nz
+Metodo de compresion: -cf
+Extras: -m1024m -r
+Tiempo: 0:04 MIN
+Compresion: 2.13GB -> 1.58GB
+Diferencia: 0.55GB
+Radio de Compresion: 25.82%
+
+NanoZip #2
+Formato de archivo: nz
+Metodo de compresion: -cF
+Extras: -m1024m -r
+Tiempo: 0:04 MIN
+Compresion: 2.13GB -> 1.60GB
+Diferencia: 0.53GB
+Radio de Compresion: 24.88%
+
+NanoZip #3
+Formato de archivo: nz
+Metodo de compresion: -cd
+Extras: -m1024m -r
+Tiempo: 0:09 MIN
+Compresion: 2.13GB -> 1.54GB
+Diferencia: 0.59GB
+Radio de Compresion: 27.70%
+
+NanoZip #4
+Formato de archivo: nz
+Metodo de compresion: -cdp
+Extras: -m1024m -r
+Tiempo: 2:50 MIN
+Compresion: 2.13GB -> 1.50GB
+Diferencia: 0.63GB
+Radio de Compresion: 29.58%
+
+NanoZip #5
+Formato de archivo: nz
+Metodo de compresion: -cdP
+Extras: -m1024m -r
+Tiempo: 2:57 MIN
+Compresion: 2.13GB -> 1.49GB
+Diferencia: 0.64GB
+Radio de Compresion: 30.05%
+
+## **Top en Compresión** ##
 
 1. **zpaqFranz #5**  
-   - **Compresión:** 2.13GB -> 1.26GB  
-   - **Diferencia:** 0.87GB  
+   - **Compresión:** **2.13GB → 1.26GB**  
+   - **Diferencia:** **0.87GB**  
    - **Radio de Compresión:** **40.85%**
 
 2. **zpaqFranz #4**  
-   - **Compresión:** 2.13GB -> 1.30GB  
-   - **Diferencia:** 0.83GB  
+   - **Compresión:** **2.13GB → 1.30GB**  
+   - **Diferencia:** **0.83GB**  
    - **Radio de Compresión:** **38.97%**
 
-3. **FreeArc Next #2 / #3 / #4 / #5**  
-   - **Compresión:** 2.13GB -> 1.32GB  
-   - **Diferencia:** 0.81GB  
+3. **FreeArc #6 / #7 / #8 / #9**  
+   - **Compresión:** **2.13GB → 1.32GB**  
+   - **Diferencia:** **0.81GB**  
+   - **Radio de Compresión:** **38.03%**
+
+4. **FreeArc Next #6 / #7 / #8 / #9**  
+   - **Compresión:** **2.13GB → 1.32GB**  
+   - **Diferencia:** **0.81GB**  
    - **Radio de Compresión:** **37.99%**
 
-4. **FreeArc**  
-   - **Compresión:** 2.13GB -> 1.38GB  
-   - **Diferencia:** 0.75GB  
+5. **FreeArc #3 / #4**  
+   - **Compresión:** **2.13GB → 1.34GB**  
+   - **Diferencia:** **0.79GB**  
+   - **Radio de Compresión:** **37.08%**
+
+6. **FreeArc #2 / Next #2 / Next #3 / Next #4 / Next #5**  
+   - **Compresión:** **2.13GB → 1.38GB**  
+   - **Diferencia:** **0.75GB**  
    - **Radio de Compresión:** **35.21%**
 
-5. **FreeArc Next #0 / #1**  
-   - **Compresión:** 2.13GB -> 1.38GB  
-   - **Diferencia:** 0.75GB  
-   - **Radio de Compresión:** **35.21%**
-
-6. **7-Zip**  
-   - **Compresión:** 2.13GB -> 1.39GB  
-   - **Diferencia:** 0.74GB  
+7. **7-Zip**  
+   - **Compresión:** **2.13GB → 1.39GB**  
+   - **Diferencia:** **0.74GB**  
    - **Radio de Compresión:** **34.74%**
 
-7. **zpaqFranz #3**  
-   - **Compresión:** 2.13GB -> 1.40GB  
-   - **Diferencia:** 0.73GB  
+8. **zpaqFranz #3**  
+   - **Compresión:** **2.13GB → 1.40GB**  
+   - **Diferencia:** **0.73GB**  
    - **Radio de Compresión:** **34.27%**
 
-8. **WinRAR**  
-   - **Compresión:** 2.13GB -> 1.46GB  
-   - **Diferencia:** 0.67GB  
+9. **WinRAR**  
+   - **Compresión:** **2.13GB → 1.46GB**  
+   - **Diferencia:** **0.67GB**  
    - **Radio de Compresión:** **31.46%**
 
-9. **zpaqFranz #2**  
-   - **Compresión:** 2.13GB -> 1.53GB  
-   - **Diferencia:** 0.60GB  
-   - **Radio de Compresión:** **28.17%**
+10. **zpaqFranz #2**  
+    - **Compresión:** **2.13GB → 1.53GB**  
+    - **Diferencia:** **0.60GB**  
+    - **Radio de Compresión:** **28.17%**
 
-10. **zpaqFranz #1**  
-    - **Compresión:** 2.13GB -> 1.58GB  
-    - **Diferencia:** 0.55GB  
+11. **zpaqFranz #1**  
+    - **Compresión:** **2.13GB → 1.58GB**  
+    - **Diferencia:** **0.55GB**  
     - **Radio de Compresión:** **25.82%**
+
+12. **FreeArc #1**  
+    - **Compresión:** **2.13GB → 1.62GB**  
+    - **Diferencia:** **0.51GB**  
+    - **Radio de Compresión:** **23.94%**
 
 # Top de velocidad de compresión (basado en **eficiencia: GB comprimidos por minuto**): #
 
-1. **FreeArc Next #1**  
-   - **Tiempo:** 0:28 MIN  
-   - **Compresión:** 2.13GB -> 1.38GB  
-   - **Diferencia:** 0.75GB  
-   - **Eficiencia:** **1.61 GB/min**
-
-2. **zpaqFranz #1**  
-   - **Tiempo:** 0:20 MIN  
-   - **Compresión:** 2.13GB -> 1.58GB  
-   - **Diferencia:** 0.55GB  
+1. **zpaqFranz #1**  
+   - **Tiempo:** **0:20 MIN**  
+   - **Compresión:** **2.13GB → 1.58GB**  
+   - **Diferencia:** **0.55GB**  
    - **Eficiencia:** **1.65 GB/min**
 
-3. **FreeArc Next #0**  
-   - **Tiempo:** 1:27 MIN  
-   - **Compresión:** 2.13GB -> 1.38GB  
-   - **Diferencia:** 0.75GB  
+2. **FreeArc Next #1**  
+   - **Tiempo:** **0:28 MIN**  
+   - **Compresión:** **2.13GB → 1.38GB**  
+   - **Diferencia:** **0.75GB**  
+   - **Eficiencia:** **1.61 GB/min**
+
+3. **FreeArc #1**  
+   - **Tiempo:** **0:04 MIN**  
+   - **Compresión:** **2.13GB → 1.62GB**  
+   - **Diferencia:** **0.51GB**  
+   - **Eficiencia:** **7.65 GB/min**
+
+4. **FreeArc Next #0**  
+   - **Tiempo:** **1:27 MIN**  
+   - **Compresión:** **2.13GB → 1.38GB**  
+   - **Diferencia:** **0.75GB**  
    - **Eficiencia:** **0.52 GB/min**
 
-4. **zpaqFranz #2**  
-   - **Tiempo:** 0:56 MIN  
-   - **Compresión:** 2.13GB -> 1.53GB  
-   - **Diferencia:** 0.60GB  
+5. **zpaqFranz #2**  
+   - **Tiempo:** **0:56 MIN**  
+   - **Compresión:** **2.13GB → 1.53GB**  
+   - **Diferencia:** **0.60GB**  
    - **Eficiencia:** **0.64 GB/min**
 
-5. **FreeArc**  
-   - **Tiempo:** 1:55 MIN  
-   - **Compresión:** 2.13GB -> 1.38GB  
-   - **Diferencia:** 0.75GB  
+6. **FreeArc**  
+   - **Tiempo:** **1:55 MIN**  
+   - **Compresión:** **2.13GB → 1.38GB**  
+   - **Diferencia:** **0.75GB**  
    - **Eficiencia:** **0.39 GB/min**
 
-6. **zpaqFranz #3**  
-   - **Tiempo:** 1:36 MIN  
-   - **Compresión:** 2.13GB -> 1.40GB  
-   - **Diferencia:** 0.73GB  
+7. **zpaqFranz #3**  
+   - **Tiempo:** **1:36 MIN**  
+   - **Compresión:** **2.13GB → 1.40GB**  
+   - **Diferencia:** **0.73GB**  
    - **Eficiencia:** **0.46 GB/min**
 
-7. **FreeArc Next #2**  
-   - **Tiempo:** 4:01 MIN  
-   - **Compresión:** 2.13GB -> 1.32GB  
-   - **Diferencia:** 0.81GB  
-   - **Eficiencia:** **0.20 GB/min**
+8. **WinRAR**  
+   - **Tiempo:** **1:56 MIN**  
+   - **Compresión:** **2.13GB → 1.46GB**  
+   - **Diferencia:** **0.67GB**  
+   - **Eficiencia:** **0.35 GB/min**
 
-8. **FreeArc Next #3**  
-   - **Tiempo:** 4:56 MIN  
-   - **Compresión:** 2.13GB -> 1.32GB  
-   - **Diferencia:** 0.81GB  
-   - **Eficiencia:** **0.16 GB/min**
+9. **zpaqFranz #4**  
+   - **Tiempo:** **2:54 MIN**  
+   - **Compresión:** **2.13GB → 1.30GB**  
+   - **Diferencia:** **0.83GB**  
+   - **Eficiencia:** **0.29 GB/min**
 
-9. **WinRAR**  
-   - **Tiempo:** 2:05 MIN  
-   - **Compresión:** 2.13GB -> 1.46GB  
-   - **Diferencia:** 0.67GB  
-   - **Eficiencia:** **0.32 GB/min**
+10. **FreeArc Next #6**  
+    - **Tiempo:** **4:01 MIN**  
+    - **Compresión:** **2.13GB → 1.32GB**  
+    - **Diferencia:** **0.81GB**  
+    - **Eficiencia:** **0.20 GB/min**
 
-10. **FreeArc Next #4 / #5**  
-    - **Tiempo:** 5:08 MIN / 6:23 MIN  
-    - **Compresión:** 2.13GB -> 1.32GB  
-    - **Diferencia:** 0.81GB  
-    - **Eficiencia:** **0.13–0.16 GB/min**
+11. **FreeArc #7 / #8**  
+    - **Tiempo:** **5:36 MIN / 5:31 MIN**  
+    - **Compresión:** **2.13GB → 1.32GB**  
+    - **Diferencia:** **0.81GB**  
+    - **Eficiencia:** **0.14–0.15 GB/min**
 
-11. **zpaqFranz #4**  
-    - **Tiempo:** 2:54 MIN  
-    - **Compresión:** 2.13GB -> 1.30GB  
-    - **Diferencia:** 0.83GB  
-    - **Eficiencia:** **0.29 GB/min**
-
-12. **7-Zip**  
-    - **Tiempo:** 6:55 MIN  
-    - **Compresión:** 2.13GB -> 1.39GB  
-    - **Diferencia:** 0.74GB  
-    - **Eficiencia:** **0.11 GB/min**
-
-13. **zpaqFranz #5**  
-    - **Tiempo:** 13:47 MIN  
-    - **Compresión:** 2.13GB -> 1.26GB  
-    - **Diferencia:** 0.87GB  
+12. **zpaqFranz #5**  
+    - **Tiempo:** **13:47 MIN**  
+    - **Compresión:** **2.13GB → 1.26GB**  
+    - **Diferencia:** **0.87GB**  
     - **Eficiencia:** **0.06 GB/min**
+
+13. **7-Zip**  
+    - **Tiempo:** **6:37 MIN**  
+    - **Compresión:** **2.13GB → 1.39GB**  
+    - **Diferencia:** **0.74GB**  
+    - **Eficiencia:** **0.11 GB/min**
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Resultados en Tabla:
 
-| **Software**        | **Método/Nivel**  | **Extras**       | **Tiempo** | **Compresión**        | **Diferencia (GB)** | **Radio (%)** | **Eficiencia (Compresión/Min)** |
-|---------------------|-------------------|------------------|------------|-----------------------|---------------------|---------------|---------------------------------|
-| **WinRAR**          | La Mejor          | Archivo sólido   | 2:05       | 2.13GB -> 1.46GB      | 0.67                | 31.46%        | 0.32 GB/min                     |
-| **7-Zip**           | 9 - Ultra         | Sólido           | 6:55       | 2.13GB -> 1.39GB      | 0.74                | 34.74%        | 0.11 GB/min                     |
-| **FreeArc**         | Alta -m5          | -                | 1:55       | 2.13GB -> 1.38GB      | 0.75                | 35.21%        | 0.39 GB/min                     |
-| **FreeArc Next #0** | N/A               | -s -r            | 1:27       | 2.13GB -> 1.38GB      | 0.75                | 35.21%        | 0.52 GB/min                     |
-| **FreeArc Next #1** | -m2               | -s -r            | 0:28       | 2.13GB -> 1.38GB      | 0.75                | 35.21%        | **1.61 GB/min**                 |
-| **FreeArc Next #2** | -m6               | -s -r            | 4:01       | 2.13GB -> 1.32GB      | 0.81                | 37.99%        | 0.20 GB/min                     |
-| **FreeArc Next #3** | -m7               | -s -r            | 4:56       | 2.13GB -> 1.32GB      | 0.81                | 37.99%        | 0.16 GB/min                     |
-| **FreeArc Next #4** | -m8               | -s -r            | 5:08       | 2.13GB -> 1.32GB      | 0.81                | 37.99%        | 0.16 GB/min                     |
-| **FreeArc Next #5** | -m9               | -s -r            | 6:23       | 2.13GB -> 1.32GB      | 0.81                | 37.99%        | 0.13 GB/min                     |
-| **zpaqFranz #1**    | -m1               | -ssd             | 0:20       | 2.13GB -> 1.58GB      | 0.55                | 25.82%        | **1.65 GB/min**                 |
-| **zpaqFranz #2**    | -m2               | -ssd             | 0:56       | 2.13GB -> 1.53GB      | 0.60                | 28.17%        | 0.64 GB/min                     |
-| **zpaqFranz #3**    | -m3               | -ssd             | 1:36       | 2.13GB -> 1.40GB      | 0.73                | 34.27%        | 0.46 GB/min                     |
-| **zpaqFranz #4**    | -m4               | -ssd             | 2:54       | 2.13GB -> 1.30GB      | 0.83                | 38.97%        | 0.29 GB/min                     |
-| **zpaqFranz #5**    | -m5               | -ssd             | 13:47      | 2.13GB -> 1.26GB      | 0.87                | **40.85%**    | 0.06 GB/min                     |
+| **Compresor**       | **Formato** | **Método**                 | **Extras**     | **Tiempo (MIN)** | **Compresión (GB)** | **Diferencia (GB)** | **Radio (%)** | **Eficiencia (GB/MIN)** |
+|---------------------|-------------|----------------------------|----------------|------------------|---------------------|---------------------|---------------|-------------------------|
+| **WinRAR**          | RAR         | Mejor                      | Archivo sólido | 1:56             | **2.13 → 1.46 GB**  | 0.67 GB             | **31.46%**    | **0.35 GB/MIN**         |
+| **7-Zip**           | 7z          | Ultra (Nivel 9)            | Bloque sólido  | 6:37             | **2.13 → 1.39 GB**  | 0.74 GB             | **34.74%**    | **0.11 GB/MIN**         |
+| **FreeArc #1**      | Arc         | -m1                        | -s -r          | 0:04             | **2.13 → 1.62 GB**  | 0.51 GB             | **23.94%**    | **7.65 GB/MIN**         |
+| **FreeArc #2**      | Arc         | -m2                        | -s -r          | 0:36             | **2.13 → 1.38 GB**  | 0.75 GB             | **35.21%**    | **1.25 GB/MIN**         |
+| **FreeArc #3**      | Arc         | -m3                        | -s -r          | 1:45             | **2.13 → 1.34 GB**  | 0.79 GB             | **37.08%**    | **0.45 GB/MIN**         |
+| **FreeArc #4**      | Arc         | -m4                        | -s -r          | 1:43             | **2.13 → 1.34 GB**  | 0.79 GB             | **37.08%**    | **0.46 GB/MIN**         |
+| **FreeArc #5**      | Arc         | -m5                        | -s -r          | 1:55             | **2.13 → 1.38 GB**  | 0.75 GB             | **35.21%**    | **0.39 GB/MIN**         |
+| **FreeArc #6**      | Arc         | -m6                        | -s -r          | 4:29             | **2.13 → 1.32 GB**  | 0.81 GB             | **38.03%**    | **0.18 GB/MIN**         |
+| **FreeArc #7**      | Arc         | -m7                        | -s -r          | 5:36             | **2.13 → 1.32 GB**  | 0.81 GB             | **38.03%**    | **0.14 GB/MIN**         |
+| **FreeArc #8**      | Arc         | -m8                        | -s -r          | 5:31             | **2.13 → 1.32 GB**  | 0.81 GB             | **38.03%**    | **0.15 GB/MIN**         |
+| **FreeArc #9**      | Arc         | -m9                        | -s -r          | 5:45             | **2.13 → 1.32 GB**  | 0.81 GB             | **38.03%**    | **0.14 GB/MIN**         |
+| **FreeArc Next #0** | Arc         | --                         | -s -r          | 1:27             | **2.13 → 1.38 GB**  | 0.75 GB             | **35.21%**    | **0.52 GB/MIN**         |
+| **FreeArc Next #1** | Arc         | -m1                        | -s -r          | 1:27             | **2.13 → 1.63 GB**  | 0.50 GB             | **23.47%**    | **0.34 GB/MIN**         |
+| **FreeArc Next #2** | Arc         | -m2                        | -s -r          | 0:28             | **2.13 → 1.38 GB**  | 0.75 GB             | **35.21%**    | **1.61 GB/MIN**         |
+| **FreeArc Next #3** | Arc         | -m3                        | -s -r          | 1:35             | **2.13 → 1.39 GB**  | 0.74 GB             | **34.74%**    | **0.47 GB/MIN**         |
+| **FreeArc Next #4** | Arc         | -m4                        | -s -r          | 1:32             | **2.13 → 1.38 GB**  | 0.75 GB             | **35.21%**    | **0.49 GB/MIN**         |
+| **FreeArc Next #5** | Arc         | -m5                        | -s -r          | 1:34             | **2.13 → 1.38 GB**  | 0.75 GB             | **35.21%**    | **0.48 GB/MIN**         |
+| **FreeArc Next #6** | Arc         | -m6                        | -s -r          | 4:01             | **2.13 → 1.32 GB**  | 0.81 GB             | **37.99%**    | **0.20 GB/MIN**         |
+| **FreeArc Next #7** | Arc         | -m7                        | -s -r          | 4:56             | **2.13 → 1.32 GB**  | 0.81 GB             | **37.99%**    | **0.16 GB/MIN**         |
+| **FreeArc Next #8** | Arc         | -m8                        | -s -r          | 5:08             | **2.13 → 1.32 GB**  | 0.81 GB             | **37.99%**    | **0.16 GB/MIN**         |
+| **FreeArc Next #9** | Arc         | -m9                        | -s -r          | 6:23             | **2.13 → 1.32 GB**  | 0.81 GB             | **37.99%**    | **0.13 GB/MIN**         |
+| **zpaqFranz #1**    | zpaq        | -m1                        | -ssd           | 0:20             | **2.13 → 1.58 GB**  | 0.55 GB             | **25.82%**    | **1.65 GB/MIN**         |
+| **zpaqFranz #2**    | zpaq        | -m2                        | -ssd           | 0:56             | **2.13 → 1.53 GB**  | 0.60 GB             | **28.17%**    | **0.64 GB/MIN**         |
+| **zpaqFranz #3**    | zpaq        | -m3                        | -ssd           | 1:36             | **2.13 → 1.40 GB**  | 0.73 GB             | **34.27%**    | **0.45 GB/MIN**         |
+| **zpaqFranz #4**    | zpaq        | -m4                        | -ssd           | 2:54             | **2.13 → 1.30 GB**  | 0.83 GB             | **38.97%**    | **0.29 GB/MIN**         |
+| **zpaqFranz #5**    | zpaq        | -m5                        | -ssd           | 13:47            | **2.13 → 1.26 GB**  | 0.87 GB             | **40.85%**    | **0.06 GB/MIN**         |
 
-# Análisis Adicional con Métodos y Extras #
+Si necesitas alguna mejora o formato adicional, no dudes en pedírmelo. 😊
+### Análisis Adicional con Métodos y Extras
 
 1. **WinRAR**:
    - Ventaja: Un método bien optimizado y un archivo sólido, con tiempos moderados.
@@ -296,16 +471,16 @@ Resultados en Tabla:
    - Limitación: Tiempo elevado para resultados que otros superan.
 
 3. **FreeArc (Clásico y Next)**:
-   - Ventaja: Niveles bajos (N/A y -m2) ofrecen alta velocidad sin sacrificar compresión (~35.21%).
+   - Ventaja: Niveles bajos (-m1 y -m2) ofrecen alta velocidad sin sacrificar compresión (~35.21%).
    - Extras (-s -r): Mejoran el rendimiento en escenarios de datos repetitivos.
-   - **FreeArc Next #1** sobresale por su **velocidad y eficiencia** (1.61 GB/min) manteniendo un excelente nivel de compresión (35.21%).
+   - **FreeArc Next #2** sobresale por su **velocidad y eficiencia** (1.61 GB/min) manteniendo un excelente nivel de compresión (35.21%).
 
 4. **zpaqFranz**:
    - Ventaja: Ofrece excelente compresión en niveles altos, alcanzando **40.85%** en -m5.
-   - Extras (-ssd): Mejora el rendimiento de la compresión usando todos los hilos.
+   - Extras (-ssd): Mejora el rendimiento de la compresion usando todos los hilos.
    - Limitación: Niveles altos consumen más tiempo, aunque niveles bajos (-m1 a -m3) equilibran velocidad y compresión.
 
-# Conclusión #
+### Conclusión
 - **Mejor para velocidad**: **zpaqFranz #1** (20 segundos) o **FreeArc Next #1** (28 segundos).
 - **Mejor compresión absoluta**: **zpaqFranz #5** (40.85%) si el tiempo no es un problema.
 - **Mejor balance**: **FreeArc Next #1** con **-m2 y -s -r**, logrando buena compresión en el menor tiempo.
