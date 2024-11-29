@@ -481,7 +481,7 @@ Si necesitas alguna mejora o formato adicional, no dudes en pedírmelo. 😊
    - Limitación: Niveles altos consumen más tiempo, aunque niveles bajos (-m1 a -m3) equilibran velocidad y compresión.
 
 ### Conclusión
-- **Mejor para velocidad**: **zpaqFranz #1** (20 segundos) o **FreeArc Next #1** (28 segundos).
+- **Mejor para velocidad**: **zpaqFranz #1** (20 segundos) o **FreeArc #1** (4 segundos).
 - **Mejor compresión absoluta**: **zpaqFranz #5** (40.85%) si el tiempo no es un problema.
-- **Mejor balance**: **FreeArc Next #1** con **-m2 y -s -r**, logrando buena compresión en el menor tiempo.
+- **Mejor balance**: **FreeArc Next #2** con **-m2 y -s -r**, logrando buena compresión en el menor tiempo.
 
